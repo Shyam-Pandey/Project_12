@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #d7dade;
+}
+/* ---------------------- Navigation Bar -------------------- */
+.navigation {
+    background-color: #636c79;
+    width: 130rem;
+    height: 63rem;
+    z-index: -1;
+}
+
+.navigation img {
+    width: 6rem;
+    height: 3rem;
+    margin: 2rem 15rem;
+}
+
+.logo {
+    transition: all 300ms ease-in-out;
+    color: #fff;
+}
+
+.logo:hover {
+    cursor: pointer;
+    color: #8bb7a2;
+    transform: scale(1) scale(1.2, 1.2);
+}
+
+.nav-bar {
+    display: flex;
+    float: right;
+    margin: 2rem 7rem;
+    gap: 5rem;
+}
+.nav-bar button {
+    width: 10rem;
+    height: 3rem;
+    background: none;
+    border: .1rem solid white;
+    outline: none;
+    color: #ffff;
+}
+.nav-bar i {
+    display: none;
+}
+
+.list {
+    display: flex;
+    gap: 2rem;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+ul li a:hover {
+    cursor: pointer;
+    color: #8bb7a2;
+    transform: scale(1) scale(1.2, 1.2);
+}
+
+ul li {
+    list-style: none;
+}
+/* --------------------Buisness Page------------------------ */
+.business {
+    margin-top: -55rem;
+    z-index: 5;
+}
+
+.inner-bs {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0 20rem;
+    gap: 10rem;
+}
+
+.meeting-img img {
+    width: 40rem;
+    height: 50rem;
+}
+
+.lets-talk-btn {
+    transition: all 300 ease-in-out;
+}
+
+.lets-talk-btn:hover {
+    cursor: pointer;
+    transition: all 300 ease-in-out;
+    background-color: #8bb7a2;
+    transform: scale(1) scale(1.2, 1.2);
+}
+
+.talk-email form {
+    display: flex;
+}
+
+.talk-email input {
+    width: 30rem;
+    height: 3.5rem;
+    z-index: 1;
+}
+
+.talk-email button {
+    position: absolute;
+    width: 10rem;
+    height: 3rem;
+    outline: none;
+    border: none;
+    z-index: 11;
+    background-color: #8bb7a2;
+    right: 25.5rem;
+    margin-top: .4rem;
+}
+
+.text-button h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.text-button p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: #d7dade;
+}
+
+/* ----------------------Connect Business------------------------- */
+.connect-business {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.connect-business h1 {
+    font-size: 4.5rem;
+}
+
+.connect-business img {
+    width: 90rem;
+    height: 40rem;
+    align-items: center;
+}
+
+.first-head:nth-last-of-type(1) {
+    text-align: center;
+    margin: 5rem 3rem;
+    font-size: 5rem;
+}
+
+.inerr-div {
+    display: flex;
+    justify-content: center;
+    gap: 8.5rem;
+    margin: 3rem 3rem;
+}
+
+.project h1 {
+    font-size: 5rem;
+
+}
+.project p {
+    font-size: 2rem;
+}
+/* -----------------Mid Part --------------------- */
+.design-development,.stategy,.people {
+    display: flex;
+    margin: 5rem 10rem;
+    gap: 9rem;
+}
+
+.design-img img,.stategy-img img,.people-img img {
+    width: 39rem;
+    height: 42rem;
+}
+
+.text-bt1 {
+    margin-top: 9rem;
+    margin-left: 10rem;
+}
+
+.txt1 h1,.txt2 h1,.txt3 h1 {
+    font-size: 4rem;
+}
+
+.txt1 p,.txt2 p,.txt3 p {
+    font-size: 1.7rem;
+}
+
+#talk-btn,#talk-btn2,#talk-btn3 {
+    margin: 2rem 0;
+    width: 15rem;
+    height: 4rem;
+    color: #ffff;
+    background-color: #8bb7a2;
+    border: none;
+}
+
+.stategy {
+    display: flex;
+    margin: 5rem 18rem;
+    gap: 9rem;
+}
+
+.people {
+    display: flex;
+    margin: 5rem 18rem;
+    gap: 9rem;
+}
+/* ---------------------Our Team----------------------- */
+.head1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.head1 h1 {
+    font-size: 2.8rem;
+}
+
+.head1 p {
+    font-size: 2rem;
+}
+
+.team-img {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.team-img1 {
+    padding: 2rem 0;
+}
+
+.team-img1 img {
+    width: 33rem;
+    height: 35rem;
+}
+
+.team-img1 h1 {
+    font-size: 2.8rem;
+    padding: 1rem 0;
+}
+
+.team-img1 p {
+    font-size: 2rem;
+}
+
+.our-team button {
+    margin: 2rem 56rem;
+    width: 17rem;
+    height: 5rem;
+    background-color: #8bb7a2;
+    border: none;
+    outline: none;
+    color: #ffff;
+}
+/*-----------------Footer----------------- */
+footer {
+    background-color: #10181d;
+    width: auto;
+    height: 40rem;
+}
+
+.logo2 img {
+    margin: 2rem 0rem;
+    width: 5rem;
+    height: 2rem;
+}
+
+.logo2 {
+    transition: all 300ms ease-in-out;
+    color: #fff;
+}
+
+.logo2:hover {
+    cursor: pointer;
+    color: #8bb7a2;
+    transform: scale(1) scale(1.2, 1.2);
+}
+
+.line {
+    width: 97rem;
+    height: 0.1rem;
+    background-color: #636c79;
+    border-bottom: .1rem;
+    margin-top: 2rem;
+    margin-left: 18rem;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    margin: 7rem 0;
+}
+
+.our-products h1,.top-feature h1,.resources h1,.company h1,.fav-thing h1 {
+    font-size: 1.7rem;
+    color: #a2a5a7;
+    margin: 1.7rem 3rem;
+}
+
+.our-products p,.top-feature p,.resources p,.company p,.fav-thing p {
+    font-size: 1.4rem;
+    color: #a2a5a7;
+    margin: 1rem 3rem;
+}
+
+.first-half {
+    display: flex;
+    justify-content: space-around;
+    gap: 25rem;
+}
+
+.social-img {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.icon {
+    transition: all 300ms ease-in-out;
+    color: #fff;
+}
+
+.icon:hover {
+    cursor: pointer;
+    color: #8bb7a2;
+    transform: scale(1) scale(1.2, 1.2);
+}
+
+/* ------------------- Responsive Design----------------------------- */
+@media(max-width:998px){
+    html {
+        font-size: 44%;
+    }
+    .navigation{
+        width: 139.3rem;
+    }
+    /* .connect-business img{
+        width: 80rem;
+    }  */
+    .talk-email input {
+        width: 39rem;
+        height: 3.7rem;
+    }
+    .talk-email button {
+        margin-top: 0.7rem;
+    }
+}
+@media(max-width:768px){
+    html {
+        font-size: 34%;
+    } 
+    .navigation{
+        width: 136.3rem;
+    } 
+    .connect-business img{
+        width: 80rem;
+    }
+    .talk-email input {
+        width: 36rem;
+        height: 3.7rem;
+    }
+    .talk-email button {
+        margin-top: 0.7rem;
+    }
+    
+    .line{
+            width: 90rem;
+            margin-left: 23rem;
+    }
+}
+@media(max-width:348px) {
+    html {
+        font-size: 23%;
+    }
+    .navigation {
+        width: 90rem;
+        height: 130rem;
+    }
+    .navigation img {
+        width: 12rem;
+        height: 6rem;
+        margin-top: 4rem;
+        margin-left: 5rem;
+    }
+    .list {
+        display: none;
+    }
+    .nav-bar i {
+        display: block;
+    }
+    .nav-bar button {
+        width: 13rem;
+        height: 5rem;
+        font-size: 2.4rem;
+        margin-top: 4rem;
+    }
+
+    .inner-bs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meeting-img img {
+        width: 54rem;
+        height: 60rem;
+        position: absolute;
+        top: 20rem;
+    }
+
+    .text-button {
+        margin-top: -1rem;
+    }
+
+    .talk-email input {
+        font-size: 3rem;
+        width: 44rem;
+        height: 4.5rem;
+        z-index: 1;
+    }
+
+    .talk-email button {
+        position: absolute;
+        width: 10rem;
+        height: 4rem;
+        font-size: 2rem;
+        right: 26.5rem;
+        margin-top: .6rem;
+        font-size: 2.4rem;
+    }
+
+    .text-button p {
+        font-size: 2.4rem;
+    }
+/* -----------Connect Business------------------ */
+    .connect-business img {
+        width: 58rem;
+    }
+
+    .connect-business h1 {
+        margin-top: 27rem;
+    }
+
+    .inerr-div {
+        gap: 4.5rem;
+        margin-top: -20rem;
+    }
+
+    .design-development {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .design-img img {
+        width: 58rem;
+        height: 42rem;
+        margin-left: 8rem;
+    }
+
+    .stategy-img img,.people-img img {
+        width: 58rem;
+        height: 42rem;
+        margin-right: 3rem;
+    }
+
+    .stategy {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .people {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .head1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 8rem;
+    }
+
+    .head1 h1 {
+        font-size: 3.5rem;
+    }
+
+    .head1 p {
+        font-size: 2.3rem;
+    }
+
+    .team-img1 h1,
+    p {
+        font-size: 3rem;
+    }
+
+    .team-img1 p {
+        font-size: 2.3rem;
+    }
+
+    .our-team {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-img {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 5rem;
+    }
+
+    .line {
+        width: 72rem;
+        border-bottom: 0.1rem;
+        margin-top: 2rem;
+        margin-left: 10rem;
+    }
+
+    .about {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    footer {
+        width: 90rem;
+        height: 77rem;
+    }
+
+    .logo2 img {
+        margin: 4rem 0rem;
+        width: 9rem;
+        height: 5rem;
+    }
+
+    .social-img i {
+        font-size: 4rem;
+        margin-top: 3rem;
+    }
+
+    .our-products h1,.top-feature h1,.resources h1,.company h1,.fav-thing h1 {
+        font-size: 2.7rem;
+        margin: 1.7rem 3rem;
+    }
+
+    .our-products p,.top-feature p,.resources p,.company p,.fav-thing p {
+        font-size: 2.4rem;
+        margin: 1rem 3rem;
+    }
+
+}
