@@ -175,12 +175,28 @@ ul li {
     font-size: 2rem;
 }
 /* -----------------Mid Part --------------------- */
-.design-development,.stategy,.people {
+.midp {
     display: flex;
     margin: 5rem 10rem;
     gap: 9rem;
 }
 
+.design-development{
+    display: flex;
+    margin: 5rem 20rem;
+    gap: 9rem;
+}
+.stategy{
+    display: flex;
+    margin: 5rem 30rem;
+    gap: 9rem;
+}
+
+.people {
+    display: flex;
+    margin: 5rem 30rem;
+    gap: 9rem;
+}
 .design-img img,.stategy-img img,.people-img img {
     width: 39rem;
     height: 42rem;
@@ -206,18 +222,6 @@ ul li {
     color: #ffff;
     background-color: #8bb7a2;
     border: none;
-}
-
-.stategy {
-    display: flex;
-    margin: 5rem 18rem;
-    gap: 9rem;
-}
-
-.people {
-    display: flex;
-    margin: 5rem 18rem;
-    gap: 9rem;
 }
 /* ---------------------Our Team----------------------- */
 .head1 {
