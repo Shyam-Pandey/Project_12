@@ -175,11 +175,6 @@ ul li {
     font-size: 2rem;
 }
 /* -----------------Mid Part --------------------- */
-.midp {
-    display: flex;
-    margin: 5rem 10rem;
-    gap: 9rem;
-}
 
 .design-development{
     display: flex;
